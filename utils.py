@@ -9,11 +9,11 @@ AD_MODEL = "ads.Ad"
 CSV_FILE_AD = 'datasets/ad.csv'
 JSON_FILE_AD = 'datasets/ad.json'
 
-LOCATION_MODEL = "users.Location"
+LOCATION_MODEL = "user.Location"
 CSV_FILE_LOCATION = 'datasets/location.csv'
 JSON_FILE_LOCATION = 'datasets/location.json'
 
-USER_MODEL = "users.User"
+USER_MODEL = "user.User"
 CSV_FILE_USER = 'datasets/user.csv'
 JSON_FILE_USER = 'datasets/user.json'
 

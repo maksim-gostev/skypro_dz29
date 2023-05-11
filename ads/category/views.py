@@ -5,7 +5,7 @@ from ads.category.serializers import CategorySerializer, CategoryCreateSerialize
 
 
 class CategoriesListView(ListAPIView):
-    queryset = Category.objects.all()
+    queryset = Category.objects.all().order_by('name')
     serializer_class = CategorySerializer
 
 class CategoryDetailView(RetrieveAPIView):
