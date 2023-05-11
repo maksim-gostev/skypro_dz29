@@ -29,3 +29,8 @@ class Ad(models.Model):
     class Meta:
         verbose_name = 'Объявление'
         verbose_name_plural = 'Объявления'
+
+
+    @property
+    def location(self):
+        return self.author.location if self.author.location else None
